@@ -12,24 +12,41 @@ body {
 h1 {
     font-family: 'impact', sans-serif;
     font-size: 20pt;
-    color: #942C2C;
-    text-align: center;
+    color: #e60000;
+    text-align: left;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
 }
-.welcome_vid{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: auto;
-	height: auto;
-}
-
 
 p {
     padding: 0;
     margin: 0;
 }
+
+.welcome_vid {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80%;
+	width: auto;
+	background-image: cover;
+}
+
+.BBQ {
+	border: 0px #ffffff none;
+	scrolling: no;
+	frameborder: 1;
+	marginheight: 0px;
+	marginwidth: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	align: center;
+	height: 400px;
+	width: 300px;
+	background-image; cover;
+}
+
 .img-circle {
     border: 3px solid white;
     border-radius: 50%;
@@ -40,28 +57,10 @@ p {
     margin-bottom: 10px;
     border-radius: 10px;
 }
-#header {
-    background-image: url("https://pixabay.com/photos/banner-header-paper-crumpled-1571858/");
-    background-size: cover;
-}
-#header img {
-    display: block;
-    width: 80px;
-    height: 80px;
-    margin: auto;
-}
-#header p {
-    font-size: 45pt;
-    font-family: 'halja', cursive;
-    color: #942C2C;
-    padding-top: 5px;
-    margin: 0;
-    font-weight: bold;
-    text-align: center;
-}
+
 .quote {
     font-family: 'cursive', sans-serif;
-    font-size: 12pt;
+    font-size: 16pt;
     text-align: right;
     margin-top: 10px;
 }
@@ -109,24 +108,7 @@ hr {
     height: 1px;
     background: #f36f48;
 }
-form {
-    text-align: center;
-    margin-top: 0;
-}
-.submit {
-    background-color: #2C4394;
-    padding: 12px 45px;
-    border-radius: 5px;
-    cursor: pointer;
-    color: #ffffff;
-    border: none;
-    outline: none;
-    margin: 0;
-    font-weight: bold;
-}
-.submit:hover {
-    background-color: #639B41;
-}
+
 textarea {
     height: 100px;
 }
@@ -168,4 +150,10 @@ input, textarea {
     text-align: right;
     padding-bottom: 10px;
     color: grey;
+}
+
+.BBQlink {
+    height: 25%;
+	width: auto ;
+	text-align: left;
 }
