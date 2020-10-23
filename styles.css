@@ -56,6 +56,7 @@ p {
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
+	text-indent: 20px;
 }
 
 .quote {
@@ -153,7 +154,45 @@ input, textarea {
 }
 
 .BBQlink {
-    height: 25%;
+    height: 200px;
 	width: auto ;
 	text-align: left;
 }
+
+.tab {
+	text-indent: 40px
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-inner {
+	max-height:2000px;
+	overflow: hidden;
+}
+
+.item {
+		width: 100%
+		height: auto;
+	}
