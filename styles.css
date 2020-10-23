@@ -152,13 +152,13 @@ input, textarea {
 {
   content: '>';
   font-size: 55px;
-  color: red;
+  color: black;
 }
 
 .carousel-control-prev-icon:after {
   content: '<';
   font-size: 55px;
-  color: red;
+  color: black;
 }
 
 .carousel-inner {
